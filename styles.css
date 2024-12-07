@@ -69,11 +69,6 @@ h2 {
 }
 
 /* Header-image */
-.header-image {
-    width: 100%;
-    height: auto;
-}
-
 .header-image img {
     width: 100%;
     height: auto;
@@ -114,7 +109,7 @@ button {
     color: #2C363F;
     padding: 10px 50px;
     cursor: pointer;
-    border: 5px solid white;
+    border: 5px solid #F2F5EA;
 }
 
 button:hover {
@@ -179,8 +174,12 @@ footer {
 
 /* Media Query */
 @media screen and (max-width: 1024px) {
+    .header-image {
+        padding-top: 50px;
+    }
+    
     .products img {
-        padding: 0;
+        padding: 50px;
     }
 
     .nav-links {
